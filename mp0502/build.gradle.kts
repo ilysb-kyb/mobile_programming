@@ -5,7 +5,7 @@ plugins {
 android {
     namespace = "com.example.mp0502"
     compileSdk {
-        version = release(37)
+        version = release(36)
     }
 
     defaultConfig {
