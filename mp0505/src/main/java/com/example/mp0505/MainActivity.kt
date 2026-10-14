@@ -35,11 +35,22 @@ class MainActivity : AppCompatActivity() {
         ivObj1=findViewById(R.id.imageView1)
         ivObj2=findViewById(R.id.imageView2)
 
-        sObj1.setOnCheckedChangeListener{	buttonView,	isChecked->
-            // TODO : event handler
+        sObj1.setOnCheckedChangeListener { buttonView, isChecked ->
+            if (isChecked) {
+                ivObj1.visibility = View.VISIBLE
+            } else {
+                ivObj1.visibility = View.INVISIBLE
+            }
         }
-        sObj2.setOnCheckedChangeListener{	buttonView,		isChecked->
-            // TODO  event handler
+
+        sObj2.setOnCheckedChangeListener { buttonView, isChecked ->
+            if (isChecked) {
+                ivObj2.setImageResource(R.drawable.light32)
+                sObj2.setThumbResource(R.drawable.on3)
+            } else {
+                ivObj2.setImageResource(R.drawable.light31)
+                sObj2.setThumbResource(R.drawable.off3)
+            }
         }
     }
 }
