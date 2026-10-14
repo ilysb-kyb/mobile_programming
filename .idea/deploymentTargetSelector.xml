@@ -5,7 +5,11 @@
       <SelectionState runConfigName="mp0404">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+<<<<<<< Updated upstream
       <SelectionState runConfigName="mp0501">
+=======
+      <SelectionState runConfigName="mp0502">
+>>>>>>> Stashed changes
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="mp0402">
