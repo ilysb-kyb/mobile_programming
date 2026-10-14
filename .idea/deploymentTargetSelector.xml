@@ -2,10 +2,6 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="mp0502">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="mp0503">
       <SelectionState runConfigName="mp0504">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
